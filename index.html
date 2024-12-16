@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продающий сайт</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXX-Y');
+</script>
+</head>
+<body>
+    <header>
+        <h1>Твой идеальный выбор</h1>
+        <p>Начни менять свою жизнь уже сегодня!</p>
+        <a href="#form" class="btn">Получить предложение</a>
+    </header>
+
+    <section id="benefits">
+        <h2>Почему выбирают нас?</h2>
+        <ul>
+            <li>Качество</li>
+            <li>Надёжность</li>
+            <li>Доступные цены</li>
+        </ul>
+    </section>
+
+    <section id="form">
+        <h2>Запишись прямо сейчас</h2>
+        <form action="/submit" method="POST">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Ваш email" required>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Все права защищены. © 2024</p>
+    </footer>
+</body>
+</html>
